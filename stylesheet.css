@@ -1,8 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  /* overflow-x: hidden; */
-  /* overflow-y:hidden; */
 }
 
 .header {
@@ -257,4 +255,67 @@
   position: absolute;
   top: 395%;
   left: 40%;
+}
+
+.contact{
+  background-color: rgb(240,192,42);
+  height: 50vh;
+  width: 90vw;
+  margin-left: 4rem;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.form{
+  background-color: white;
+  height: 20rem;
+  width: 25rem;
+  border: 1px solid white;
+  margin-top: -40px;
+}
+
+.contactlist{
+  margin-top: 30px;
+  margin-left: -5px; 
+}
+
+.contactlist li{
+  list-style-type: none;
+  display: flex;
+}
+
+.contactlist p{
+  margin-left: 20px;
+  font-weight: bolder;
+}
+
+.form h6{
+  margin-top: 30px;
+  margin-left: 10px;
+  color: black;
+  font-weight: bolder;
+}
+
+.form input{
+  margin-left: 10px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+.fstnm1{
+  
+}
+.fstnm2{
+  width: 22rem;
+}
+
+.fstnm3{
+  width: 22rem;
+  height: 8rem;
+}
+
+footer{
+  background-color:rgb(240,192,42) ;
+  height: 60vh;
+  width: 70wh;
 }
