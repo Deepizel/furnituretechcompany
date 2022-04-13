@@ -231,14 +231,19 @@
   /* margin-top: -40px; */
 }
 
-.review h3{
+.review h5{
  text-align: center;
+ margin-top: -4rem;
 }
 
 .robot1{
  color: rgb(244,208,95);
   font-size: 5rem;
   margin-left: 40rem;
+  margin-top: -2rem;
+  position: absolute;
+  top: 390%;
+  left: 40%;
 }
 
 .reviewbtn{
@@ -248,6 +253,8 @@
   background-color: rgb(240,192,42);
   color: black;
   font-weight: bolder;
-  margin-top: -20px;
-  margin-left: 40rem;
+  margin-left: 34rem;
+  position: absolute;
+  top: 395%;
+  left: 40%;
 }
