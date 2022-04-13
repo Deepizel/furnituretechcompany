@@ -1,71 +1,253 @@
 * {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  box-sizing: none;
+  /* overflow-x: hidden; */
+  /* overflow-y:hidden; */
 }
-
 
 .header {
   background-image: url(hero.png);
   height: 100vh;
-  width: 100wh;
-  object-fit: cover;
+  width: 100vw;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   color: white;
 }
 
-.logobit{
-    margin-left: 100px;
+.logobit {
+  margin-left: 100px;
 }
 
-.linkeroo{
-    margin-left: 30px;
-    color: white !important;
-    cursor: pointer;
+.linkeroo {
+  margin-left: 30px;
+  color: white !important;
+  cursor: pointer;
 }
 
-.linkeroo:hover{
- color: yellow !important;
-    
+.linkeroo:hover {
+  color: yellow !important;
 }
-.sgn-up{
-    margin-right: 10rem;
-    width: 150px;
-    height: 30px;
+.sgn-up {
+  margin-right: 10rem;
+  width: 150px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: yellow;
+  font-weight: bold;
+}
+
+.headertxt {
+  margin-left: 9rem;
+  line-height: 9rem;
+  font-size: 7rem;
+}
+
+.withstyle {
+  font-size: 3rem;
+  margin-left: 9rem;
+  margin-bottom: 20px;
+}
+
+.headerp {
+  margin-left: 9rem;
+  margin-bottom: 20px;
+}
+
+.sgn-up1 {
+  margin-right: 10rem;
+  width: 150px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: yellow;
+  font-weight: bold;
+  margin-left: 9rem;
+}
+
+/* .card:hover{
+    zoom: 5%;
+} */
+.man1{
+    height: 300px;
+    width: 350px;
+    margin-left: 30%;
+}
+
+.play{
+    position: absolute;
+    top: 190%;
+    left: 69%;
+}
+
+.up{
+    position: absolute;
+    top: 173%;
+    left: 59%;
+}
+
+.up1{
+    position: absolute;
+    top: 175%;
+    left: 58%;
+}
+
+.down{
+    position: absolute;
+    top: 200%;
+    left: 75%
+}
+
+.down1{
+    position: absolute;
+    top: 201%;
+    left: 74%
+}
+
+.experience{
+    margin-left: 7rem;
+    padding: 20px;
+}
+
+.experience button{
+    height: 40px;
+    width: 8rem;
     border: none;
-    border-radius: 10px;
-    background-color: yellow;
-    font-weight:bold;
+    background-color: rgb(240,192,42);
+    color: black;
+    font-weight: bolder;
 }
 
-.headertxt{
-    margin-left: 9rem;
-    line-height: 9rem;
-    font-size: 7rem;
+.fun{
+    height: 300px;
+    width: 350px;
 }
 
-.withstyle{
-    font-size: 3rem;
-    margin-left: 9rem;
-    margin-bottom: 20px;
+.furniturebank{
+    margin-left: 7rem;
+    margin-top: 4rem;
 }
 
-.headerp{
-    margin-left: 9rem;
-    margin-bottom: 20px;
+.box{
+    height: 6rem;
+    position: absolute;
+    top: 238%;
+    left: 27%
 }
 
-.sgn-up1{
-    margin-right: 10rem;
-    width: 150px;
-    height: 30px;
+.box1{
+    height: 6rem;
+    position: absolute;
+    top: 236%;
+    left: 28%
+}
+
+.box2{
+    height: 6rem;
+    position: absolute;
+    top: 265%;
+    left: 6%
+}
+
+.furniture{
+    margin-left: 2rem;
+    margin-top: 8rem;
+}
+.furniture button{
+    height: 40px;
+    width: 8rem;
     border: none;
-    border-radius: 10px;
-    background-color: yellow;
-    font-weight:bold;
-    margin-left: 9rem;
+    background-color: rgb(240,192,42);
+    color: black;
+    font-weight: bolder;
+}
+
+.featurewraper{
+    margin-top: 5rem;
+    margin-left: 8rem;
+}
+
+.featurewraper hr{
+ width: 6rem;
+ font-weight: bolder;
+ /* hoverheature */
+ transform: scale(1.2);
+ transition: all 2s ease;
+}
+
+.img1{
+    height: 150px;
+    width: 120px;
+}
+
+.featured2{
+  height: 18rem;
+  width:16rem;
+  margin-top: 60px;
+}
+
+.hearhdr{
+  margin-top: 5rem;
+  margin-left: 8rem;
+}
+
+.hearhdr hr{
+  width: 6rem;
+ font-weight: bolder;
+ margin-top: -20px;
+}
+
+.reviewimg{
+ margin-top: 1rem;
+  margin-left: 8rem;
+}
+
+.reviewimg li{
+  list-style-type: none;
+}
+
+.btn2{
+  position: absolute;
+  top: 370%;
+  left: 18%;
+}
+.btn3{
+  position: absolute;
+  top: 370%;
+  left: 24%;
+}
+
+.btn4{
+  position: absolute;
+  top: 370%;
+  left: 28%;
+}
+
+.robot{
+  color: rgb(244,208,95);
+  font-size: 5rem;
+  margin-left: 60px;
+  /* margin-top: -40px; */
+}
+
+.review h3{
+ text-align: center;
+}
+
+.robot1{
+ color: rgb(244,208,95);
+  font-size: 5rem;
+  margin-left: 40rem;
+}
+
+.reviewbtn{
+  height: 40px;
+  width: 8rem;
+  border: none;
+  background-color: rgb(240,192,42);
+  color: black;
+  font-weight: bolder;
+  margin-top: -20px;
+  margin-left: 40rem;
 }
