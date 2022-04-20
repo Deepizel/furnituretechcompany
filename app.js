@@ -28,7 +28,7 @@ const newPop3 = function showMessage() {
   document.querySelector(".reviews").innerHTML = review;
 };
 
-btn1.addEventListener("click", () => { 
+btn1.addEventListener("click", e => { 
   // btn1.style.background = "white";
   btn2.style.display = "none";
   btn3.style.display = "none";
@@ -36,23 +36,29 @@ btn1.addEventListener("click", () => {
   newPop();   
 });
 
-btn2.addEventListener("click", () => {
+btn2.addEventListener("click", e => {
   btn1.style.display = "none";
   btn3.style.display = "none";
   btn4.style.display = "none";
   newPop2();
 });
 
-btn3.addEventListener("click", () => {
+btn3.addEventListener("click", e => {
   btn1.style.display = "none";
   btn2.style.display = "none";
   btn4.style.display = "none";
   newPop1();
 });
 
-btn4.addEventListener("click", () => {
+btn4.addEventListener("click", e => {
   btn1.style.display = "none";
   btn2.style.display = "none";
   btn3.style.display = "none";
   newPop3();
 });
+
+const next = [e.btn1, e.btn2];
+
+for (i = 0; i < next.length; i++){
+  
+}

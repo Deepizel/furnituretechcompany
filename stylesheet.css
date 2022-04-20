@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 .header {
@@ -38,19 +40,20 @@
 
 .headertxt {
   margin-left: 9rem;
-  line-height: 9rem;
+  margin-top: -3rem;
   font-size: 7rem;
 }
 
 .withstyle {
   font-size: 3rem;
   margin-left: 9rem;
-  margin-bottom: 20px;
+  margin-top: -5rem;
 }
 
 .headerp {
   margin-left: 9rem;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  margin-top: -5rem;
 }
 
 .sgn-up1 {
@@ -62,6 +65,7 @@
   background-color: yellow;
   font-weight: bold;
   margin-left: 9rem;
+  margin-top: -4rem;
 }
 
 /* .card:hover{
@@ -108,6 +112,12 @@
     padding: 20px;
 }
 
+.experience h3{
+  overflow: hidden;
+}
+.experience h4{
+  overflow-x: hidden;
+}
 .experience button{
     height: 40px;
     width: 8rem;
@@ -120,6 +130,8 @@
 .fun{
     height: 300px;
     width: 350px;
+    position: relative;
+    z-index: 7;
 }
 
 .furniturebank{
@@ -130,15 +142,16 @@
 .box{
     height: 6rem;
     position: absolute;
-    top: 238%;
+    top: 222%;
     left: 27%
 }
 
 .box1{
     height: 6rem;
     position: absolute;
-    top: 236%;
+    top: 223%;
     left: 28%
+    
 }
 
 .box2{
@@ -149,9 +162,17 @@
 }
 
 .furniture{
-    margin-left: 2rem;
+    margin-left: 1rem;
     margin-top: 8rem;
+    height: 400px;
+    width: 500px;
+    overflow-x: hidden;
 }
+
+.furniture h4{
+  overflow: hidden;
+}
+
 .furniture button{
     height: 40px;
     width: 8rem;
@@ -162,7 +183,6 @@
 }
 
 .featurewraper{
-    margin-top: 5rem;
     margin-left: 8rem;
 }
 
