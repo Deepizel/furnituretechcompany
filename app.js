@@ -1,64 +1,30 @@
-const para = document.querySelector('.reviews');
-const btn1 = document.querySelector('.btn1');
-const btn2 = document.querySelector('.btn2');
-const btn3 = document.querySelector('.btn3');
-const btn4 = document.querySelector('.btn4');
+//
 
-console.log(para.innerText);
-const newPop = function showMessage() {
-  let review = "Victor ipsum dolor sit amet consectetur adipisicing elit. Architecto <br> explicabo quos aliquid porro consequatur omnis labore at harum,<br> soluta vitae nulla nam est cum ea animi id veritatis delectus sapiente."
-  document.querySelector(".reviews").innerHTML = review;
-};
+// let i = 0; // Start Point
 
-const newPop1 = function showMessage() {
-  let review =
-    "Definatly going to use them again. Architecto <br> explicabo quos aliquid porro consequatur omnis labore at harum,<br> soluta vitae nulla nam est cum ea animi id veritatis delectus sapiente.";
-  document.querySelector(".reviews").innerHTML = review;
-};
+let time = 3000; // Time Between Switch
 
-const newPop2 = function showMessage() {
-  let review =
-    "They were amazing when they came to fix my things. Architecto <br> explicabo quos aliquid porro consequatur omnis labore at harum,<br> soluta vitae nulla nam est cum ea animi id veritatis delectus sapiente.";
-  document.querySelector(".reviews").innerHTML = review;
-};
+// Image List
+// img = <img src="Review1.png" alt="" />;
+// imag = <img src="Review2.png" alt="" />;
+// ima = <img src="Review3.png" alt="" />;
+// mag = <img src="Review4.png" alt="" />;
+let images = [Review1.png, Review2.png, Review3.png, Review4.png]; // Images Array
 
-const newPop3 = function showMessage() {
-  let review =
-    "Great service, top proffesionals too. Architecto <br> explicabo quos aliquid porro consequatur omnis labore at harum,<br> soluta vitae nulla nam est cum ea animi id veritatis delectus sapiente.";
-  document.querySelector(".reviews").innerHTML = review;
-};
-
-btn1.addEventListener("click", e => { 
-  // btn1.style.background = "white";
-  btn2.style.display = "none";
-  btn3.style.display = "none";
-  btn4.style.display = "none";
-  newPop();   
-});
-
-btn2.addEventListener("click", e => {
-  btn1.style.display = "none";
-  btn3.style.display = "none";
-  btn4.style.display = "none";
-  newPop2();
-});
-
-btn3.addEventListener("click", e => {
-  btn1.style.display = "none";
-  btn2.style.display = "none";
-  btn4.style.display = "none";
-  newPop1();
-});
-
-btn4.addEventListener("click", e => {
-  btn1.style.display = "none";
-  btn2.style.display = "none";
-  btn3.style.display = "none";
-  newPop3();
-});
-
-const next = [e.btn1, e.btn2];
-
-for (i = 0; i < next.length; i++){
+// Change Image
+function changeImg() {
   
+ for (let i = 0; i < images.length; i++) {
+  document.reviewimg.src= images[i];
 }
+  // Check If Index Is Under Max
+  if (i < images.length - 1) {
+    // Add 1 to Index
+    i++;
+  } else {
+    // Reset Back To O
+    i = 0;
+  }
+  setTimeout("changeImg()", 3000);
+}
+window.onload = changeImg;

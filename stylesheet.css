@@ -164,7 +164,7 @@
 .furniture{
     margin-left: 1rem;
     margin-top: 8rem;
-    height: 400px;
+    height: 300px;
     width: 500px;
     overflow-x: hidden;
 }
@@ -248,7 +248,9 @@
   margin-left: 60px;
   /* margin-top: -40px; */
 }
-
+.reviewbot{
+  height:300px;
+}
 .review h5{
  text-align: center;
  margin-top: -4rem;
@@ -258,12 +260,16 @@
  color: rgb(244,208,95);
   font-size: 5rem;
   margin-left: 40rem;
-  margin-top: -2rem;
+  margin-top: 2rem;
   position: absolute;
   top: 390%;
   left: 40%;
 }
-
+.reviews{
+  /* margin-top: 10rem; */
+  overflow: hidden;
+ height: 40px;
+}
 .reviewbtn{
   height: 40px;
   width: 8rem;
@@ -272,9 +278,9 @@
   color: black;
   font-weight: bolder;
   margin-left: 34rem;
-  position: absolute;
+  /* position: absolute;
   top: 395%;
-  left: 40%;
+  left: 40%; */
 }
 
 .contact{
@@ -284,6 +290,7 @@
   margin-left: 4rem;
   justify-content: space-around;
   margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 .form{
@@ -338,4 +345,72 @@ footer{
   background-color:rgb(240,192,42) ;
   height: 60vh;
   width: 70wh;
+}
+
+.footersgnup{
+  margin-left: 70px;
+  overflow-x: hidden;
+  margin-top: 40px;
+  color: black;
+}
+
+.footersgnup h5{
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.footersgnup button{
+  background-color: black;
+  width: 80px;
+  color: white;
+}
+.footersgnup p{
+  font-size: smaller;
+  color: chocolate;
+}
+
+.footerlist{
+  margin-left: 200px;
+  color: black;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+.myaccount p{
+margin-left: 30px;
+font-weight:bolder;
+}
+
+.myaccount a{
+text-decoration: none;
+}
+.Support a{
+ text-decoration: none;
+}
+.Support p{
+margin-left: 30px;
+font-weight:bolder;
+}
+.Funcity a{
+  text-decoration: none;
+}
+.Funcity p{
+margin-left: 30px;
+font-weight:bolder;
+}
+
+.lastline{
+  display: flex;
+  justify-content: space-around;
+}
+
+.Copyright{
+  margin-top: 30px;
+  color: black;
+}
+
+.icons i{
+  justify-content: space-between;
+  margin-top: 30px;
+  color: black;
 }
