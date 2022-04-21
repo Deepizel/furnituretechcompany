@@ -77,15 +77,28 @@
 /* .card:hover{
     zoom: 5%;
 } */
+
+.categories{
+  overflow: hidden;
+}
+
+.cathr{
+  width: 130px;
+}
+
+.card1{
+  overflow-y: hidden;
+}
+.cat:hover{
+  transform: scale(1.1);
+ transition: all 2s ease;
+}
 .man1{
     height: 300px;
     width: 350px;
     margin-left: 30%;
 }
-.man1:hover{
-  transform: scale(1.1);
- transition: all 2s ease;
-}
+
 .play{
     position: absolute;
     top: 190%;
@@ -303,7 +316,9 @@ transform: scale(1.1);
   top: 395%;
   left: 40%; */
 }
-
+.reach{
+  overflow: hidden;
+}
 .contact{
   background-color: rgb(240,192,42);
   height: 50vh;
