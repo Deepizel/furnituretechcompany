@@ -57,6 +57,7 @@
   margin-left: 9rem;
   margin-bottom: 10px;
   margin-top: -5rem;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .sgn-up1 {
@@ -136,6 +137,7 @@
 
 .experience h3{
   overflow: hidden;
+  font-family: 'Ubuntu', sans-serif;
 }
 .experience h4{
   overflow-x: hidden;
@@ -201,6 +203,7 @@ transform: scale(1.1);
 
 .furniture h4{
   overflow: hidden;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .furniture button{
@@ -261,21 +264,31 @@ transform: scale(1.1);
 
 .btn2{
   position: absolute;
-  top: 370%;
+  top: 364%;
   left: 18%;
 }
 .btn3{
   position: absolute;
-  top: 370%;
+  top: 364%;
   left: 24%;
 }
 
 .btn4{
   position: absolute;
-  top: 370%;
+  top: 364%;
   left: 28%;
 }
-
+.more{
+  background-color: white;
+  /* border: 1px solid black; */
+  width: 230px;
+  border-radius: 10px;
+  position: absolute;
+  top: 389%;
+  left: 33%;
+  justify-content: center;
+  font-size: smaller;
+}
 .robot{
   color: rgb(244,208,95);
   font-size: 5rem;
@@ -285,20 +298,30 @@ transform: scale(1.1);
 .reviewbot{
   height:300px;
 }
+
+.review{
+  margin-top: 20px;
+}
+
 .review h5{
+  margin-left: 120px;
  text-align: center;
- margin-top: -4rem;
+ font-family: 'Poppins', sans-serif;
+ margin-top: 20px;
+ height:150px;
+ width: 30rem;
 }
 
 .robot1{
  color: rgb(244,208,95);
   font-size: 5rem;
-  margin-left: 40rem;
+  margin-left: 36rem;
   margin-top: 2rem;
   position: absolute;
   top: 390%;
   left: 40%;
 }
+
 .reviews{
   /* margin-top: 10rem; */
   overflow: hidden;
@@ -311,10 +334,14 @@ transform: scale(1.1);
   background-color: rgb(240,192,42);
   color: black;
   font-weight: bolder;
-  margin-left: 34rem;
+  margin-left: 27rem;
   /* position: absolute;
   top: 395%;
   left: 40%; */
+}
+
+.reviewbtn:hover{
+  background-color: aliceblue;
 }
 .reach{
   overflow: hidden;
@@ -333,10 +360,15 @@ transform: scale(1.1);
   background-color: white;
   height: 20rem;
   width: 25rem;
-  border: 1px solid white;
-  margin-top: -40px;
+  border: 2px solid rgba(255, 255, 255, 0);
+  box-shadow: 10px;
+  /* margin-top: -40px; */
 }
 
+.form input{
+  border: 0.5px solid #DED9D9;
+
+}
 .contactlist{
   margin-top: 30px;
   margin-left: -5px; 
@@ -352,6 +384,10 @@ transform: scale(1.1);
   font-weight: bolder;
 }
 
+.form{
+  box-shadow: 30px;
+  border-top: 6px solid grey;
+}
 .form h6{
   margin-top: 30px;
   margin-left: 10px;
@@ -360,23 +396,43 @@ transform: scale(1.1);
 }
 
 .form input{
-  margin-left: 10px;
+  margin-left: 30px;
   margin-bottom: 10px;
   outline: none;
 }
-
+.form h6{
+  margin-left: 30px;
+  overflow: hidden;
+}
+.fstnm{
+ width: 9rem;
+ margin-left: 40px;
+}
 .fstnm1{
-  
-}
-.fstnm2{
-  width: 22rem;
+  width: 8rem;
 }
 
+.fstnm2{
+  width: 19rem;
+}
 .fstnm3{
-  width: 22rem;
+  width: 19rem;
   height: 8rem;
 }
 
+.ctcbtn{
+  margin-left: 30px;
+  width: 60px;
+  background-color: rgb(240,192,42);
+  border: none;
+  height: 30px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.ctcbtn:hover{
+  background-color: aliceblue;
+}
 footer{
   background-color:rgb(240,192,42) ;
   height: 60vh;
@@ -384,12 +440,15 @@ footer{
 }
 
 .footersgnup{
-  margin-left: 70px;
+  margin-left: 120px;
   overflow-x: hidden;
   margin-top: 40px;
   color: black;
 }
-
+.footersgnup input{
+  border: none;
+  width:13rem;
+}
 .footersgnup h5{
   margin-bottom: 20px;
   overflow: hidden;
@@ -399,6 +458,7 @@ footer{
   background-color: black;
   width: 80px;
   color: white;
+  border: none;
 }
 
 .footersgnup button:hover{
@@ -424,9 +484,11 @@ font-weight:bolder;
 
 .myaccount a{
 text-decoration: none;
+font-family: 'Ubuntu', sans-serif;
 }
 .Support a{
  text-decoration: none;
+ font-family: 'Ubuntu', sans-serif;
 }
 .Support p{
 margin-left: 30px;
@@ -434,6 +496,7 @@ font-weight:bolder;
 }
 .Funcity a{
   text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
 }
 .Funcity p{
 margin-left: 30px;
