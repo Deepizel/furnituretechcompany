@@ -272,17 +272,17 @@ transform: scale(1.1);
 }
 .btn3{
   position: absolute;
-  left: 24%;
+  left: 18%;
 }
 
 .btn4{
   position: absolute;
-  left: 28%;
+  left: 18%;
 }
 .more{
-  background-color: white;
+  background-color: rgb(177, 189, 12);
   /* border: 1px solid black; */
-  width: 230px;
+  width: 100px;
   border-radius: 10px;
   position: absolute;
   top: 389%;
