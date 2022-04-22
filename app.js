@@ -5,7 +5,6 @@
 // const btn2 = document.querySelector(".btn2");
 // const btn3 = document.querySelector(".btn3");
 // const btn4 = document.querySelector(".btn4");
-// const popupTxt = document.querySelector(".reviews");
 // const more = document.querySelector(".more");
 
 // btn1.addEventListener("click", () => {
@@ -57,4 +56,22 @@ setInterval(function () {
   }
 
   i++;
+}, 2000);
+
+const popupTxt = document.querySelectorAll(".reviews");
+
+let s = 0;
+setInterval(function () {
+  if (s == 0) {
+    popupTxt[i].style.display = "block";
+  } else if (s == popupTxt.length) {
+    popupTxt[s - 1].style.display = "none";
+    popupTxt[0].style.display = "block";
+    s = 0;
+  } else {
+    popupTxt[s - 1].style.display = "none";
+    popupTxt[s].style.display = "block";
+  }
+
+  s++;
 }, 2000);
