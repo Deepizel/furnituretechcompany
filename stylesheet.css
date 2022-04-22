@@ -28,6 +28,7 @@
 .linkeroo:hover {
   color: yellow !important;
 }
+
 .sgn-up {
   margin-right: 10rem;
   width: 150px;
@@ -258,24 +259,24 @@ transform: scale(1.1);
   margin-left: 8rem;
 }
 
+.reviewimg ul{
+  display: flex;
+}
 .reviewimg li{
   list-style-type: none;
 }
 
 .btn2{
   position: absolute;
-  top: 364%;
   left: 18%;
 }
 .btn3{
   position: absolute;
-  top: 364%;
   left: 24%;
 }
 
 .btn4{
   position: absolute;
-  top: 364%;
   left: 28%;
 }
 .more{
@@ -288,6 +289,7 @@ transform: scale(1.1);
   left: 33%;
   justify-content: center;
   font-size: smaller;
+  margin-top: 90px;
 }
 .robot{
   color: rgb(244,208,95);

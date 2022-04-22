@@ -1,30 +1,42 @@
-//
+const button = document.querySelector("button");
+const popup = document.querySelector(".nxtcard");
+const close = document.querySelector(".closx");
+const btn1 = document.querySelector(".btn1");
+const btn2 = document.querySelector(".btn2");
+const btn3 = document.querySelector(".btn3");
+const btn4 = document.querySelector(".btn4");
+const popupTxt = document.querySelector(".reviews");
+const more = document.querySelector(".more");
 
-// let i = 0; // Start Point
+btn1.addEventListener("click", () => {
+  btn2.style.display = "none";
+  btn3.style.display = "none";
+  btn4.style.display = "none";
+  popupTxt.innerText = "Great team.. Loved their work, will definatly use them again";
+  more.style.display = "none";
 
-let time = 3000; // Time Between Switch
+});
 
-// Image List
-// img = <img src="Review1.png" alt="" />;
-// imag = <img src="Review2.png" alt="" />;
-// ima = <img src="Review3.png" alt="" />;
-// mag = <img src="Review4.png" alt="" />;
-let images = [Review1.png, Review2.png, Review3.png, Review4.png]; // Images Array
+btn2.addEventListener("click", () => {
+  btn1.style.display = "none";
+  btn3.style.display = "none";
+  btn4.style.display = "none";
+  popupTxt.innerText = "Funcity is amazing and we woudnt have loved our decour either way ";
+  more.style.display = "none";
+});
 
-// Change Image
-function changeImg() {
-  
- for (let i = 0; i < images.length; i++) {
-  document.reviewimg.src= images[i];
-}
-  // Check If Index Is Under Max
-  if (i < images.length - 1) {
-    // Add 1 to Index
-    i++;
-  } else {
-    // Reset Back To O
-    i = 0;
-  }
-  setTimeout("changeImg()", 3000);
-}
-window.onload = changeImg;
+btn3.addEventListener("click", () => {
+  btn1.style.display = "none";
+  btn2.style.display = "none";
+  btn4.style.display = "none";
+  popupTxt.innerText = "I was simply stunned to watch my room transform, they did a splendid job";
+  more.style.display = "none";
+});
+
+btn4.addEventListener("click", () => {
+  btn1.style.display = "none";
+  btn2.style.display = "none";
+  btn3.style.display = "none";
+  popupTxt.innerText = "These guys are really dope and i already referred them to several people";
+  more.style.display = "none";
+});
