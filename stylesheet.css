@@ -86,6 +86,9 @@
 
 .cathr{
   width: 130px;
+  color: orange;
+  height: 40px;
+  border-bottom: 4px solid orange;
 }
 
 .card1{
@@ -227,6 +230,8 @@ transform: scale(1.1);
 .featurewraper hr{
  width: 6rem;
  font-weight: bolder;
+ color: orange;
+ border-bottom: 4px solid orange;
  /* hoverheature */
  transform: scale(1.2);
  transition: all 2s ease;
@@ -252,6 +257,8 @@ transform: scale(1.1);
   width: 6rem;
  font-weight: bolder;
  margin-top: -20px;
+ color: rgb(244,208,95);
+  border-bottom: 4px solid orange;
 }
 
 .reviewimg{
@@ -390,6 +397,7 @@ transform: scale(1.1);
 .form{
   box-shadow: 30px;
   border-top: 6px solid grey;
+  border-radius: 5px;
 }
 .form h6{
   margin-top: 30px;
@@ -438,8 +446,9 @@ transform: scale(1.1);
 }
 footer{
   background-color:rgb(240,192,42) ;
-  height: 60vh;
+  height: 35vh;
   width: 70wh;
+  overflow: hidden;
 }
 
 .footersgnup{
@@ -483,24 +492,43 @@ footer{
 .myaccount p{
 margin-left: 30px;
 font-weight:bolder;
+color: black;
 }
 
 .myaccount a{
 text-decoration: none;
 font-family: 'Ubuntu', sans-serif;
+color: black;
 }
+.myaccount a:hover{
+color: chocolate;
+}
+
 .Support a{
  text-decoration: none;
  font-family: 'Ubuntu', sans-serif;
+ color: black;
 }
+
+.Support a:hover{
+color: chocolate;
+}
+
 .Support p{
 margin-left: 30px;
 font-weight:bolder;
 }
+
 .Funcity a{
   text-decoration: none;
   font-family: 'Ubuntu', sans-serif;
+  color: black;
 }
+
+.Funcity a:hover{
+color: chocolate;
+}
+
 .Funcity p{
 margin-left: 30px;
 font-weight:bolder;
@@ -514,6 +542,9 @@ font-weight:bolder;
 .Copyright{
   margin-top: 30px;
   color: black;
+  position: absolute;
+  top: 482%;
+  left: 35%;
 }
 
 .icons i{
@@ -521,3 +552,10 @@ font-weight:bolder;
   margin-top: 30px;
   color: black;
 }
+
+.footerimg{
+  position: absolute;
+  top: 482%;
+  left: 10%;
+ } 
+ 
